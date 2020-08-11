@@ -19,6 +19,26 @@
      .facilities__text
           margin: 15px auto
           width: 70%
+     .carousel
+          width: 70%
+          margin: 0 auto
+          img
+               width: 100%
+     .catalog
+          &__item
+               margin-left: 20px
+               margin-right: 20px
+          &__tabs
+               width: 90%;
+               margin: 0 auto;
+               font-size: 13px
+          &__tab
+               div
+                    font-size: 13px
+     .catalog__tab
+          font-size: 15px 
+     .comments__item
+          margin: 40px 25px;
 @media (max-width: 767px)
      .header__phone
           font-size: 15px
@@ -49,7 +69,19 @@
                margin-top: 40px
      .feed-form
           margin: 25px auto
+     .catalog
+          &__tab
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               line-height: 16px;
+               div
+                    font-size: 12px
+          &__item
+               margin: 10px auto
+          
 @media screen and ( max-width: 575px  )
+
      .promo__icons
           display: flex
           flex-wrap: wrap
@@ -73,3 +105,14 @@
      .consultation__descr
           font-size: 18px
           margin-top: 25px
+     .comments
+          &__item
+               display: block
+          &__text
+               width: 100%
+               text-align: center
+               margin-top: 15px
+          &__img
+               display: block
+               margin: 0 auto
+     

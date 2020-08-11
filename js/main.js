@@ -27,6 +27,19 @@
 const slider = tns({
     container: '.carousel__inner',
     items: 1,
+    responsive: {
+        640: {
+            edgePadding: 20,
+            gutter: 20,
+            items: 1
+        },
+        700: {
+            gutter: 30
+        },
+        900: {
+            items: 1
+        }
+    },
     slideBy: 'page',
     autoplay: false,
     controls: false,

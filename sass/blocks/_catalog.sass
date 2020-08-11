@@ -17,14 +17,16 @@
 		font-weight: 400
 		text-transform: uppercase
 		text-align: center
-		line-height: 48px
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		transform: skewX(-25deg)
 		margin: 0 5px
 		cursor: pointer
 		transition: 0.5s all
 		&:hover
 			box-shadow: 3px 3px 20px $main-color
-			border: none
+	
 		div
 			transform: skewX(25deg)
 		&_active
@@ -81,7 +83,7 @@
 	&__footer
 		display: flex
 		justify-content: space-between
-	&_old-price
+	&__old-price
 		color: #555555
 		font-size: 14px
 		font-weight: 300
