@@ -69,8 +69,7 @@
     valideForm('#order form');
     valideForm('#consultation form');
     $('input[name=phone]').mask("+7 (999) 999-9999");
-<<<<<<< HEAD
-=======
+
 
     $('form').submit(function(e) {
         e.preventDefault();
@@ -87,8 +86,8 @@
         });
         return false;
     });
-})(jQuery);
->>>>>>> fe4e63282dfb066764c825c3548abf0e8b170753
+
+
 
     $(window).scroll(function() {
         if ($(this).scrollTop() > 1600) {
